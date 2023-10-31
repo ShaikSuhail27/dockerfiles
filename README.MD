@@ -20,6 +20,7 @@ COPY: This instruction is used for copy the files to image and the file should p
 ADD: This instruction is also same as copy like copying the files from current directory to the container but it is having two extra capabilities
 1.it can directly get the content from internet and will copy 
 2.it can directly untar the files 
+ENTRYPOINT: this instruction is same as CMD command but this will not be overriden by any command, but CMD can be overridden by any command
 
 ##### Docker file push process to docher hub
 1.Need to login to docker hub in the server using docker login command and need to enter credentials
