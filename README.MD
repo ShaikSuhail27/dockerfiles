@@ -21,6 +21,8 @@ ADD: This instruction is also same as copy like copying the files from current d
 1.it can directly get the content from internet and will copy 
 2.it can directly untar the files 
 ENTRYPOINT: this instruction is same as CMD command but this will not be overriden by any command, but CMD can be overridden by any command
+Entry point cannot be overriden by any command but the command can append to the entrypoint
+if entry point is not passing any argument, then CMD will supply the argument so better to use both CMD and ENtry point for best results
 
 ##### Docker file push process to docher hub
 1.Need to login to docker hub in the server using docker login command and need to enter credentials
