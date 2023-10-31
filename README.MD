@@ -9,4 +9,6 @@ we can build the images and we can push to any docker repository
 docker build -t <image-name>:version .
 
 FROM: This instruction is used to select base os
-RUN: This instruction is used to install or configure inside the base OS
+RUN: This instruction is used to install or configure inside the base OS and it is executed at the time of image creation
+CMD: This instruction will run the container and it is executed at the time of container creation
+LABEL: This instruction is used for filtration purpose
