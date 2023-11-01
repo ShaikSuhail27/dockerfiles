@@ -38,6 +38,8 @@ WORKDIR:  this instruction will act as cd(change directory)
 
 ARG: This ARG variable will run at only build time, but the ENV variable will run at both build time and run time.
 
+ONBUILD--> this instruction will not work at the time of image build done by developer and it will work when some one is pulling that image.
+
 
 ##### Docker file push process to docher hub
 1.Need to login to docker hub in the server using docker login command and need to enter credentials
