@@ -36,8 +36,17 @@ USER:This instruction is used to create user , by default docker will get the ro
 
 WORKDIR:  this instruction will act as cd(change directory)
 
+ARG: This ARG variable will run at only build time, but the ENV variable will run at both build time and run time.
+
+
 ##### Docker file push process to docher hub
 1.Need to login to docker hub in the server using docker login command and need to enter credentials
 
 Format: docker push <URL>/<user-name>/<image-name>:<version>
+
+###### Interview questions
+1.RUN VS CMD
+2.ADD VS COPY
+3.CMD VS ENTRYPOINT
+4.ARG VS ENV
 
