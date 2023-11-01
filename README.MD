@@ -34,6 +34,8 @@ if entry point is not passing any argument, then CMD will supply the argument so
 
 USER:This instruction is used to create user , by default docker will get the root acess to the underlined server and that is not the best practice so we are creating the user
 
+WORKDIR:  this instruction will act as cd(change directory)
+
 ##### Docker file push process to docher hub
 1.Need to login to docker hub in the server using docker login command and need to enter credentials
 
